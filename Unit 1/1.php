@@ -2,6 +2,6 @@
 
 <?php
  
- echo "Learning PHP";
+ echo "<b>Learning PHP</b>";
 
 ?>
