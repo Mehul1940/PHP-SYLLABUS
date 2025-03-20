@@ -10,7 +10,7 @@
             var message = document.getElementById("mes");
 
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "p1.php", true);
+            xhr.open("POST", "EmailValidation.php", true);
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
             xhr.send("email=" + email);
